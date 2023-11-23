@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Player Movement")]
+    [Header("Player movement")]
     public float playerSpeed = 1.9f;
 
-    [Header("Player animator and gravity")]
+    [Header("Player camera")]
+    public Transform playerCamera;
+
+    [Header("Player animator & gravity")]
     public CharacterController characterCtrl;
+
+    [Header("Player jumping & velocity")]
+    public float turnCalmTime = 0.1f;
+    float turnCalmVelocity;
 
     private void Update()
     {
@@ -21,13 +28,17 @@ public class PlayerMovement : MonoBehaviour
         float horizontal_axis = Input.GetAxisRaw("Horizontal");
         float vertical_axis = Input.GetAxisRaw("Vertical");
 
-        Vector3 direction = new Vector3(horizontal_axis,0f, vertical_axis).normalized;
+        Vector3 direction = new Vector3(horizontal_axis, 0f, vertical_axis).normalized;
 
         if (direction.magnitude > 0.1f)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
-            characterCtrl.Move(direction.normalized * playerSpeed * Time.deltaTime);
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + playerCamera.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnCalmVelocity, turnCalmTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+            Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            characterCtrl.Move(moveDirection.normalized * playerSpeed * Time.deltaTime);
+            Debug.Log("viet 1234");
         }
     }
 }
