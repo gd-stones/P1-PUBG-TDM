@@ -13,13 +13,28 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player animator & gravity")]
     public CharacterController characterCtrl;
+    public float gravity = -9.81f;
 
     [Header("Player jumping & velocity")]
     public float turnCalmTime = 0.1f;
     float turnCalmVelocity;
 
+    Vector3 velocity;
+    public Transform surfaceCheck;
+    bool onSurface;
+    public float surfaceDistance = 0.4f;
+    public LayerMask surfaceMask;
+
     private void Update()
     {
+        onSurface = Physics.CheckSphere(surfaceCheck.position, surfaceDistance, surfaceMask);
+        if (onSurface && velocity.y < 0)
+            velocity.y = -2f;
+
+        // gravity
+        velocity.y += gravity * Time.deltaTime;
+        characterCtrl.Move (velocity * Time.deltaTime);
+
         PlayerMove();
     }
 
