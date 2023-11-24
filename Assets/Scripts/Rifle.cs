@@ -24,6 +24,12 @@ public class Rifle : MonoBehaviour
         {
             Debug.Log(hitInfo.transform.name);
 
+            Objects objects = hitInfo.transform.GetComponent<Objects>();
+
+            if (objects != null)
+            {
+                objects.ObjectHitDamage(giveDamage);
+            }
         }
     }
 }

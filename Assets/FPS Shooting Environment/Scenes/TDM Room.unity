@@ -5162,7 +5162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139703011}
   m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.3852758, y: 5.7718544, z: -1.5848446}
+  m_LocalPosition: {x: 0.6673, y: 5.7718544, z: -1.5848446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10735,6 +10735,7 @@ GameObject:
   - component: {fileID: 555003134}
   - component: {fileID: 555003136}
   - component: {fileID: 555003135}
+  - component: {fileID: 555003137}
   m_Layer: 12
   m_Name: Wood Crate A (1)
   m_TagString: Untagged
@@ -10777,7 +10778,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10807,6 +10808,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555003133}
   m_Mesh: {fileID: 209039640186285891, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &555003137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555003133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 4.084544, z: 4.0848627}
+  m_Center: {x: 0, y: -0.00000059604645, z: -0.000004053116}
 --- !u!1 &601895956
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,6 +10915,7 @@ GameObject:
   - component: {fileID: 628966068}
   - component: {fileID: 628966070}
   - component: {fileID: 628966069}
+  - component: {fileID: 628966071}
   m_Layer: 12
   m_Name: Wood Crate B (3)
   m_TagString: Untagged
@@ -10943,7 +10958,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10973,6 +10988,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628966067}
   m_Mesh: {fileID: -681208225954906715, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &628966071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628966067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902658, y: 8.190134, z: 4.0848627}
+  m_Center: {x: -5.885456e-14, y: 0.0000021457672, z: 0.0000038146973}
 --- !u!1 &635197576
 GameObject:
   m_ObjectHideFlags: 0
@@ -11179,6 +11207,7 @@ GameObject:
   - component: {fileID: 706555247}
   - component: {fileID: 706555249}
   - component: {fileID: 706555248}
+  - component: {fileID: 706555250}
   m_Layer: 12
   m_Name: Wood Crate B (4)
   m_TagString: Untagged
@@ -11221,7 +11250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11251,6 +11280,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706555246}
   m_Mesh: {fileID: -681208225954906715, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &706555250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706555246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902658, y: 8.190134, z: 4.0848627}
+  m_Center: {x: 0.0000004768371, y: 0.0000011920929, z: 0.0000038146973}
 --- !u!1 &725354729
 GameObject:
   m_ObjectHideFlags: 0
@@ -11461,6 +11503,7 @@ GameObject:
   - component: {fileID: 944036501}
   - component: {fileID: 944036503}
   - component: {fileID: 944036502}
+  - component: {fileID: 944036504}
   m_Layer: 12
   m_Name: Wood Crate B (2)
   m_TagString: Untagged
@@ -11503,7 +11546,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11533,6 +11576,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944036500}
   m_Mesh: {fileID: -681208225954906715, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &944036504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944036500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902658, y: 8.190134, z: 4.0848627}
+  m_Center: {x: 0.00000023841852, y: 0.0000011920929, z: -0.0000076293945}
 --- !u!1 &955202407
 GameObject:
   m_ObjectHideFlags: 0
@@ -16782,6 +16838,8 @@ GameObject:
   - component: {fileID: 1565235366}
   - component: {fileID: 1565235368}
   - component: {fileID: 1565235367}
+  - component: {fileID: 1565235370}
+  - component: {fileID: 1565235369}
   m_Layer: 12
   m_Name: Wood Crate A (4)
   m_TagString: Untagged
@@ -16824,7 +16882,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16854,6 +16912,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565235365}
   m_Mesh: {fileID: 209039640186285891, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!114 &1565235369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565235365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1166155e668d36147a071fbc051d2673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 100
+--- !u!65 &1565235370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565235365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.090265, y: 4.084544, z: 4.084862}
+  m_Center: {x: -0.00000047683716, y: -0.0000010728836, z: 2.842171e-14}
 --- !u!1 &1570951104
 GameObject:
   m_ObjectHideFlags: 0
@@ -16968,6 +17052,7 @@ GameObject:
   - component: {fileID: 1582524855}
   - component: {fileID: 1582524857}
   - component: {fileID: 1582524856}
+  - component: {fileID: 1582524858}
   m_Layer: 12
   m_Name: Wood Crate A (2)
   m_TagString: Untagged
@@ -17010,7 +17095,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17040,6 +17125,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582524854}
   m_Mesh: {fileID: 209039640186285891, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &1582524858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582524854}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 4.084544, z: 4.0848627}
+  m_Center: {x: 0, y: -0.00000059604645, z: 0.0000035762787}
 --- !u!1 &1615112392
 GameObject:
   m_ObjectHideFlags: 0
@@ -17264,6 +17362,7 @@ GameObject:
   - component: {fileID: 1676549433}
   - component: {fileID: 1676549435}
   - component: {fileID: 1676549434}
+  - component: {fileID: 1676549436}
   m_Layer: 12
   m_Name: Wood Crate A (5)
   m_TagString: Untagged
@@ -17306,7 +17405,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17336,6 +17435,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676549432}
   m_Mesh: {fileID: 209039640186285891, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &1676549436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676549432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 4.084544, z: 4.0848627}
+  m_Center: {x: 0, y: -0.00000059604645, z: -0.00000023841858}
 --- !u!1 &1697629210
 GameObject:
   m_ObjectHideFlags: 0
@@ -17636,6 +17748,7 @@ GameObject:
   - component: {fileID: 1915140245}
   - component: {fileID: 1915140247}
   - component: {fileID: 1915140246}
+  - component: {fileID: 1915140248}
   m_Layer: 12
   m_Name: Wood Crate A (3)
   m_TagString: Untagged
@@ -17678,7 +17791,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17708,6 +17821,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915140244}
   m_Mesh: {fileID: 209039640186285891, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &1915140248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915140244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 4.084544, z: 4.0848627}
+  m_Center: {x: 0, y: -0.00000059604645, z: -0.000007867813}
 --- !u!4 &1928059365
 Transform:
   m_ObjectHideFlags: 0
@@ -22804,6 +22930,7 @@ GameObject:
   - component: {fileID: 2004943010}
   - component: {fileID: 2004943012}
   - component: {fileID: 2004943011}
+  - component: {fileID: 2004943013}
   m_Layer: 12
   m_Name: Wood Crate B (1)
   m_TagString: Untagged
@@ -22846,7 +22973,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22876,6 +23003,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004943009}
   m_Mesh: {fileID: -681208225954906715, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &2004943013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004943009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.090267, y: 8.190135, z: 4.0848646}
+  m_Center: {x: -8.828658e-14, y: -0.0000064373016, z: -1.1770532e-13}
 --- !u!1 &2006928876
 GameObject:
   m_ObjectHideFlags: 0
@@ -35922,7 +36062,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38432,7 +38572,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0bde4689ebf7941bc6fb97a6617273, type: 2}
+  - {fileID: 2100000, guid: 6ab0873680058e445b7c7ee6afdc2f4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39142,6 +39282,7 @@ GameObject:
   - component: {fileID: 7490065418089397501}
   - component: {fileID: 9160564547768589857}
   - component: {fileID: 3141732920364881970}
+  - component: {fileID: 9160564547768589858}
   m_Layer: 12
   m_Name: Wood Crate B
   m_TagString: Untagged
@@ -41426,7 +41567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5387298329386596632}
   m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.3852758, y: 5.7718544, z: -1.5848446}
+  m_LocalPosition: {x: 0.6673, y: 5.7718544, z: -1.5848446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45955,6 +46096,7 @@ GameObject:
   - component: {fileID: 1519060908371348797}
   - component: {fileID: 5300702681843736694}
   - component: {fileID: 1986700628991002229}
+  - component: {fileID: 8475261555753518203}
   m_Layer: 12
   m_Name: Wood Crate A
   m_TagString: Untagged
@@ -45962,6 +46104,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &8475261555753518203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475261555753518202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 4.084544, z: 4.0848627}
+  m_Center: {x: 0, y: -0.00000059604645, z: -0.00000023841858}
 --- !u!33 &8482381505850630047
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -46807,6 +46962,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3801838003223340819}
   m_Mesh: {fileID: -681208225954906715, guid: a6e8556bd858ae848aed7d0f1b48edbd, type: 3}
+--- !u!65 &9160564547768589858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801838003223340819}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0902653, y: 8.190134, z: 4.0848627}
+  m_Center: {x: -8.673617e-18, y: 0.0000011920929, z: 0}
 --- !u!33 &9203870080708117583
 MeshFilter:
   m_ObjectHideFlags: 0
