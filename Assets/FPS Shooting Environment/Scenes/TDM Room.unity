@@ -5086,7 +5086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139703011}
   m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.19601537, y: 5.7718544, z: -1.5848446}
+  m_LocalPosition: {x: 0.4970406, y: 5.7718544, z: -1.5848446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27406,6 +27406,7 @@ MonoBehaviour:
   playerCamera: {fileID: 139703016}
   characterCtrl: {fileID: 2082192793}
   gravity: -9.81
+  animator: {fileID: 2082192792}
   jumpRange: 1
   turnCalmTime: 0.1
   surfaceCheck: {fileID: 257540631}
@@ -27554,6 +27555,7 @@ GameObject:
   - component: {fileID: 4416766368276620}
   - component: {fileID: 33387951697124116}
   - component: {fileID: 23641701873276620}
+  - component: {fileID: 33387951697124117}
   m_Layer: 6
   m_Name: Tommy_gun_mesh
   m_TagString: Untagged
@@ -30254,6 +30256,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026579980790972}
   m_Mesh: {fileID: 4300000, guid: b4efb30ec2fc46e4b99a156356acaf49, type: 3}
+--- !u!114 &33387951697124117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026579980790972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ba31f01d9747b48aac568431c666e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 139703015}
+  giveDamage: 10
+  shootingRange: 100
 --- !u!33 &33445733758564102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40965,7 +40982,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5387298329386596632}
   m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.19601537, y: 5.7718544, z: -1.5848446}
+  m_LocalPosition: {x: 0.4970406, y: 5.7718544, z: -1.5848446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
