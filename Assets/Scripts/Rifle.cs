@@ -20,8 +20,8 @@ public class Rifle : MonoBehaviour
     public float reloadingTime = 1.3f;
     bool setReloading = false;
 
-    //[Header("Rifle effects")]
-    //public ParticleSystem muzzleSpark;
+    [Header("Rifle effects")]
+    public ParticleSystem muzzleSpark;
 
     private void Awake()
     {
@@ -98,7 +98,7 @@ public class Rifle : MonoBehaviour
             mag--;
         }
 
-        //muzzleSpark.Play();
+        muzzleSpark.Play();
         RaycastHit hitInfo;
 
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hitInfo, shootingRange))
