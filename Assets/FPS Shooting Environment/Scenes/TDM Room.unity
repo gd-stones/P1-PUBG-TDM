@@ -5161,8 +5161,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139703011}
-  m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.6291709, y: 5.7718544, z: -1.5848446}
+  m_LocalRotation: {x: 0.00209307, y: 0, z: 0, w: 0.99999785}
+  m_LocalPosition: {x: 0.6336869, y: 5.6574183, z: -0.8089423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30853,6 +30853,7 @@ MonoBehaviour:
   aimCanvas: {fileID: 725354729}
   thirdPersonCam: {fileID: 5387298329386596632}
   thirdPersonCanvas: {fileID: 635197576}
+  animator: {fileID: 2082192792}
 --- !u!33 &33445733758564102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -34262,17 +34263,17 @@ MonoBehaviour:
   m_YDamping: 0.2
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.59
+  m_ScreenX: 0.47
+  m_ScreenY: 0.82
   m_CameraDistance: 0.8099613
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.3672515
-  m_SoftZoneHeight: 0.4778598
-  m_BiasX: -0.00000016229926
-  m_BiasY: -0.000000249465
+  m_SoftZoneWidth: 0.54
+  m_SoftZoneHeight: 0.73
+  m_BiasX: 0.03000001
+  m_BiasY: -0.5
   m_CenterOnActivate: 0
   m_GroupFramingMode: 2
   m_AdjustmentMode: 2
@@ -39248,7 +39249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3789680063231297831}
   m_LocalRotation: {x: 0.00209307, y: 0, z: 0, w: 0.99999785}
-  m_LocalPosition: {x: 0.5967438, y: 5.483682, z: -0.8096696}
+  m_LocalPosition: {x: 0.6336869, y: 5.6574183, z: -0.8089423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39273,7 +39274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &3801838003223340819
 GameObject:
   m_ObjectHideFlags: 0
@@ -41430,8 +41431,8 @@ MonoBehaviour:
   m_YDamping: 0.2
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.34
-  m_ScreenY: 0.4
+  m_ScreenX: 0.27
+  m_ScreenY: 0.48
   m_CameraDistance: 1.7208238
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
@@ -41467,7 +41468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RecenterTarget: 2
   m_VerticalAxis:
-    Value: 0.24
+    Value: 0.23984832
     m_SpeedMode: 1
     m_MaxSpeed: 1.5
     m_AccelTime: 0.2
@@ -41561,7 +41562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5387298329386596634
 Transform:
   m_ObjectHideFlags: 0
@@ -41569,8 +41570,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5387298329386596632}
-  m_LocalRotation: {x: 0.0020943934, y: 0, z: 0, w: 0.9999978}
-  m_LocalPosition: {x: 0.6291709, y: 5.7718544, z: -1.5848446}
+  m_LocalRotation: {x: 0.00209307, y: 0, z: 0, w: 0.99999785}
+  m_LocalPosition: {x: 0.7646921, y: 5.9002385, z: -1.5843067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
